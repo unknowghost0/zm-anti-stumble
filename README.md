@@ -24,13 +24,14 @@ The mod sets `self.shock_onpain = false` on player spawn. This is the same prope
 ```
 zm_anti_stumble_mod/
   source/
-    zm_anti_stumble.gsc   # Source code
-  README.md               # This file
+    zm_anti_stumble.gsc   # Source 
+  compiled/
+    zm_anti_stumble.gsc   # Compiled 
+  README.md               # ReadMe file
 ```
 
 ## Notes
 
-- The `zm_` prefix is **required** for Plutonium to auto-load the script in Zombies mode.
 - This mod does **not** change player health, movement speed, or sprint mechanics. It only blocks the pain shellshock that causes stumble.
 - Does not affect damage taken — you still lose health normally.
 
@@ -39,3 +40,4 @@ zm_anti_stumble_mod/
 - Plutonium T6 (Black Ops 2 Zombies)
 - Works on all Zombies maps
 - Zombies only for what i know of might work on other Mobs in Zombies
+- Might work on Server
